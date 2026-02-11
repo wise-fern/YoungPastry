@@ -1,0 +1,17 @@
+{
+    "version": 7,
+    "configurePresets": [
+        {
+            "name": "debug",
+            "displayName": "Debug",
+            "generator": "Ninja",
+            "binaryDir": "build",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_CXX_COMPILER":"clang++",
+                "CMAKE_C_COMPILER":"clang",
+                "EXPORT_COMPILE_COMMANDS": true
+            }
+        }
+    ]
+}
