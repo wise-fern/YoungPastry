@@ -1,0 +1,12 @@
+Diagnostics:
+  ClangTidy:
+    Add:
+      - 'bugprone-*'
+      - 'cppcoreguidelines-*'
+      - 'modernize-*'
+      - 'misc-*'
+      - 'readability-*'
+      - 'portability-*'
+    Remove:
+      - 'misc-use-internal-linkage'
+      - '*-avoid-c-arrays'
