@@ -6,6 +6,7 @@ Diagnostics:
       - 'modernize-*'
       - 'misc-*'
       - 'readability-*'
+      - 'performance-*'
       - 'portability-*'
     Remove:
       - 'misc-use-internal-linkage'
